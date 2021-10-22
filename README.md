@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+![badge](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hello React Front-end
 
-## Available Scripts
+> React front-end app to consume the Ruby on Rails, API-only, back-end app.
 
-In the project directory, you can run:
+## About
 
-### `yarn start`
+This React front-end app consumes the Ruby on Rails, API-only, back-end app from [this repo](https://github.com/Jmagero/hello-rails-back-end).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- HTML & CSS
+- JavaScript
+- React
+- Redux
 
-### `yarn test`
+## Live View
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can preview this front-end app [here](https://hello-react-front-end-x.netlify.app/).
 
-### `yarn build`
+You can access a preview of the API at [this enpoint](https://shielded-waters-51364.herokuapp.com/api/v1/random-greeting).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `yarn eject`
+- Terminal / Console / CLI
+- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- Web browser
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Setup
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Download or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) the contents from this repository.
+  
+2. Go to the project's root directory:
+``` bash
+cd <hello-react-front-end>
+```
+3. Install dependencies:
+``` bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Running locally
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Start server:
 
-## Learn More
+``` bash
+  npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Go to `http://localhost:3000/` in you preferred browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Authors
 
-### Code Splitting
+👨‍💻 **Jocyline Magero**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Github: [@jmagero](https://github.com/Jmagero)
+- Twitter: [@MagzCelyn](https://twitter.com/magero_jocyline)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jocyline-magero)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to check the [issues page](../../issues/).
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
